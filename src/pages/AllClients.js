@@ -16,7 +16,7 @@ const AllClients = () => {
       <ul className="list-group">
         {clients.map(client => (
           <li key={client.id} className="list-group-item">
-            {client.name} - {client.email} {client.blocked ? '(Blocked)' : ''}
+            client name here {client.name} - {client.email} {client.blocked ? '(Blocked)' : ''}
           </li>
         ))}
       </ul>

@@ -8,7 +8,8 @@ import Loans from './pages/Loans';
 import Scoring from './pages/Scoring';
 import Settings from './pages/Settings';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css';
+import './styles/index.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const App = () => {
   return (
